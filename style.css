@@ -54,4 +54,48 @@ header .textbox .btn {
 }
 header .textbox .btn h3 {
   font-size: 21px;
+}
+
+#services .box {
+  text-align: center;
+}
+#services .box h1 {
+  font-size: 45px;
+  font-weight: 700;
+  color: #000;
+}
+#services .box h3 {
+  font-size: 20px;
+  color: #6c757d;
+  font-style: italic;
+  margin: 20px 0 40px;
+}
+#services .textbox {
+  text-align: center;
+}
+#services .textbox .icon {
+  position: relative;
+  left: 77px;
+  background-color: #ffc800;
+  border-radius: 50%;
+  padding: 26px;
+  width: 129px;
+}
+#services .textbox .icon i {
+  font-size: 70px;
+  color: white;
+}
+#services .textbox h2 {
+  font-size: 27px;
+  font-weight: 700;
+  color: #000;
+  margin: 15px 0 20px;
+}
+#services .textbox p {
+  font-size: 18px;
+  line-height: 1.4;
+  color: #6c757d;
+}
+#services .wid {
+  width: 270px;
 }/*# sourceMappingURL=style.css.map */
