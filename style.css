@@ -102,4 +102,53 @@ header .textbox .btn h3 {
 
 #portfolio {
   background-color: rgb(248, 249, 250);
+}
+#portfolio .box h1 {
+  font-weight: 700;
+  font-size: 45px;
+}
+#portfolio .box h3 {
+  font-size: 18px;
+  color: #6c757d;
+  font-style: italic;
+  margin: 20px 0 60px;
+}
+#portfolio .plusbox {
+  background-color: rgba(255, 200, 0, 0.9);
+  position: absolute;
+  width: 26%;
+  height: 40%;
+  cursor: pointer;
+  opacity: 0;
+  transition: 0.5s;
+}
+#portfolio .plusbox:hover {
+  opacity: 1;
+}
+#portfolio .plusbox h5 {
+  font-size: 140px;
+  color: white;
+  margin-top: 55px;
+  cursor: pointer;
+}
+#portfolio .textbox {
+  text-align: center;
+  background-color: white;
+  margin-bottom: 25px;
+}
+#portfolio .textbox .imgbox img {
+  cursor: pointer;
+}
+#portfolio .textbox .minibox {
+  padding: 30px;
+}
+#portfolio .textbox .minibox h2 {
+  font-weight: 700;
+  font-size: 28px;
+  margin-bottom: 12px;
+}
+#portfolio .textbox .minibox h4 {
+  font-size: 18px;
+  font-style: italic;
+  color: #6c757d;
 }/*# sourceMappingURL=style.css.map */
