@@ -273,4 +273,7 @@ header .textbox .btn h3 {
 
 #partner .imgbox {
   width: 200px;
+}
+#partner .imgbox img {
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
