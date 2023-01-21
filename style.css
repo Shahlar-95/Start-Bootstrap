@@ -323,4 +323,27 @@ header .textbox .btn h3 {
   font-size: 20px;
   font-weight: 600;
   color: white;
+}
+
+footer h1 {
+  font-size: 17px;
+  color: #444343;
+}
+footer ul {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 60px;
+}
+footer ul li {
+  background-color: #000;
+  border-radius: 50%;
+  width: 12%;
+  padding: 14px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+footer ul li i {
+  cursor: pointer;
+  color: white;
+  font-size: 15px;
 }/*# sourceMappingURL=style.css.map */
