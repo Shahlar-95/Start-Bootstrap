@@ -1,8 +1,24 @@
 header
+    position: fixed
+    top: 0
+    left: 0
+    right: 0
     padding: 35px 0
+    .imgbox
+        width: 200px
+        img
+            cursor: pointer
+    .btn
+        //width: 92px
+        padding: 10px 17px
+        border: 1px solid #bbbaba
+        h6
+            color: #ffff
+            margin-right: 11px
+        .icon
+            i
+                color: #ffff
     .menu
-        .imgbox
-            width: 200px
         nav
             padding-top: 5px
             a
@@ -10,5 +26,6 @@ header
                 font-size: 20px
                 margin-right: 20px
                 color: #ffff
-
-    
+                transition: 0.2s
+                &:hover
+                    color: #fd7e14

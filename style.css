@@ -16,8 +16,10 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  position: absolute;
+  position: relative;
   top: 0;
+  left: 0;
+  right: 0;
   z-index: -1;
 }
 #studio .textbox {
@@ -45,10 +47,28 @@ section {
 }
 
 header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   padding: 35px 0;
 }
-header .menu .imgbox {
+header .imgbox {
   width: 200px;
+}
+header .imgbox img {
+  cursor: pointer;
+}
+header .btn {
+  padding: 10px 17px;
+  border: 1px solid #bbbaba;
+}
+header .btn h6 {
+  color: white;
+  margin-right: 11px;
+}
+header .btn .icon i {
+  color: white;
 }
 header .menu nav {
   padding-top: 5px;
@@ -58,6 +78,10 @@ header .menu nav a {
   font-size: 20px;
   margin-right: 20px;
   color: white;
+  transition: 0.2s;
+}
+header .menu nav a:hover {
+  color: #fd7e14;
 }
 
 #services .box {
@@ -311,9 +335,14 @@ header .menu nav a {
   font-weight: 700;
   opacity: 0.5;
 }
-#contact .bck input {
-  height: 242px;
-  padding-bottom: 177px;
+#contact .text textarea {
+  padding: 32px 0 0 20px;
+  margin: 23px 0 23px;
+  background-color: white;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 5px;
+  height: 100%;
 }
 #contact .btn {
   padding: 20px 60px;
