@@ -45,7 +45,6 @@ section {
 header {
   background-color: #212529;
   position: fixed;
-  top: 0;
   left: 0;
   right: 0;
   z-index: 1;
@@ -58,9 +57,11 @@ header .imgbox img {
   cursor: pointer;
 }
 header .btn {
-  padding: 10px 17px;
+  display: flex;
+  display: none;
   border: 1px solid #bbbaba;
   cursor: pointer;
+  opacity: 0.5;
 }
 header .btn h6 {
   cursor: pointer;
@@ -82,6 +83,15 @@ header .menu nav a {
 }
 header .menu nav a:hover {
   color: #ffc800;
+}
+@media screen and (max-width: 992px) {
+  header .btn {
+    display: inline;
+    display: flex;
+  }
+  header .menu {
+    display: none;
+  }
 }
 
 #services .box {
