@@ -16,11 +16,6 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  position: relative;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: -1;
 }
 #studio .textbox {
   position: relative;
@@ -37,6 +32,7 @@ section {
 #studio .textbox h1 {
   font-size: 80px;
   margin: 20px 0 60px;
+  font-weight: 700;
 }
 #studio .textbox .btn {
   padding: 23px 61px;
@@ -47,14 +43,16 @@ section {
 }
 
 header {
+  background-color: #212529;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  padding: 35px 0;
+  z-index: 1;
+  padding: 26px 0;
 }
 header .imgbox {
-  width: 200px;
+  width: 140px;
 }
 header .imgbox img {
   cursor: pointer;
@@ -62,8 +60,10 @@ header .imgbox img {
 header .btn {
   padding: 10px 17px;
   border: 1px solid #bbbaba;
+  cursor: pointer;
 }
 header .btn h6 {
+  cursor: pointer;
   color: white;
   margin-right: 11px;
 }
@@ -81,7 +81,7 @@ header .menu nav a {
   transition: 0.2s;
 }
 header .menu nav a:hover {
-  color: #fd7e14;
+  color: #ffc800;
 }
 
 #services .box {
