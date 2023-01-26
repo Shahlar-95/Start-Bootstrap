@@ -137,7 +137,24 @@ header .menu nav a:hover {
 #services .wid {
   width: 325px;
 }
-
+@media screen and (max-width: 992px) {
+  #services .textbox {
+    padding-right: 100px;
+  }
+  #services .textbox .icon {
+    left: 47px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #services .textbox {
+    display: flex;
+    flex-direction: column;
+    padding: 0 54px 50px 144px;
+  }
+  #services .wid {
+    width: 420px;
+  }
+}
 #portfolio {
   background-color: rgb(248, 249, 250);
 }
