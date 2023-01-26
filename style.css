@@ -113,7 +113,7 @@ header .menu nav a:hover {
 }
 #services .textbox .icon {
   position: relative;
-  left: 77px;
+  left: 115px;
   background-color: #ffc800;
   border-radius: 50%;
   padding: 26px;
@@ -135,7 +135,7 @@ header .menu nav a:hover {
   color: #6c757d;
 }
 #services .wid {
-  width: 270px;
+  width: 325px;
 }
 
 #portfolio {
