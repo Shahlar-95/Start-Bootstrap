@@ -35,10 +35,12 @@ section {
   font-weight: 700;
 }
 #studio .textbox .btn {
+  cursor: pointer;
   padding: 23px 61px;
   background-color: #ffc800;
 }
 #studio .textbox .btn h3 {
+  cursor: pointer;
   font-size: 18px;
 }
 header {
@@ -130,18 +132,21 @@ header .menu nav a:hover {
   margin: 15px 0 20px;
 }
 #services .textbox p {
-  font-size: 18px;
-  line-height: 1.4;
+  font-size: 20px;
+  line-height: 1.75;
   color: #6c757d;
 }
 #services .wid {
-  width: 325px;
+  width: 300px;
 }
 @media screen and (max-width: 992px) {
   #services .textbox {
-    padding-right: 100px;
+    width: 100%;
+    margin-left: 20px;
   }
   #services .textbox .icon {
+    width: 79%;
+    padding: 39px;
     left: 47px;
   }
 }
@@ -155,6 +160,12 @@ header .menu nav a:hover {
     width: 420px;
   }
 }
+@media screen and (max-width: 576px) {
+  #services .box {
+    position: relative;
+  }
+}
+
 #portfolio {
   background-color: rgb(248, 249, 250);
 }
