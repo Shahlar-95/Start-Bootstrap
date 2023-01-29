@@ -23,7 +23,7 @@
                 font-size: 70px
                 color: #ffff
         .minibox
-            margin-left: 6px
+            margin-left: 7px
             h2
                 font-size: 27px
                 font-weight: 700
@@ -37,6 +37,13 @@
         width: 361px
     .wid
         width: 300px
+    @media screen and ( max-width: 1200px )
+        .textbox
+            .icon
+                left: 85px
+            .minibox
+                p,h2
+                    margin-right: 60px
     @media screen and ( max-width: 992px )
         .box
             margin-left: 14%
@@ -47,13 +54,19 @@
                 width: 79%
                 padding: 39px
                 left: 47px
+            .minibox
+                h2
+                    margin-right: -23px
+                p
+                    margin-right: -55px
         .left
-            width: 232px
+            width: 287px
     @media screen and ( max-width: 768px )
         .textbox
             padding: 0 54px 50px 144px
+            .minibox
+                margin-left: -119px
         .wid
             width: 420px
         .left
             width: 488px
-   
